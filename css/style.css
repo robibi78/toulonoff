@@ -1,0 +1,153 @@
+/**
+ * This file should get overwritten if Method 1 is used. If Method 2 is chosen,
+ * remove this comment and start adding your styles to this file.
+ */
+
+h1 {
+  font-family: 'Vollkorn', serif;
+  font-size: 40px;
+}
+
+h2 {
+	font-family: 'Vollkorn', serif;
+	font-size: 30px;
+}
+
+h3 {
+	font-family: 'Vollkorn', serif;
+	font-size: 20px;
+}
+
+.color1 {
+	color: #FF4619;
+}
+
+.color2 {
+
+}
+
+/*------------------------------------*\
+  ==NAVBAR
+\*------------------------------------*/
+.navbar-default {
+	background-color: #FFF;
+	border: none;
+}
+
+.navbar-default .navbar-nav>.active>a {
+	color: #FF4619;
+	background-color: #FFF;
+}
+
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>.active>a:focus{
+	background-color: #FF4619;
+	color: #FFF
+}
+
+.navbar-default .navbar-nav>li>a{
+	background-color: #FFF;
+	transition: background-color 0.8s ease 0s;
+	color: #FF4619;
+	text-transform: uppercase;
+	font-family: 'Oswald', serif;
+	font-size: 20px;
+	margin: 5px;
+	border-radius: 2px;
+}
+
+.navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-nav>li>a:focus{
+	background-color: #FF4619;
+	transition: background-color 0.2s ease-out 0s;
+	color: #FFF;
+}
+
+
+.leaflet-container {
+	border: 1px solid #999;
+}
+
+.cadre-image img {
+	padding: 4px;
+	border: 1px solid #eee;
+}
+
+.upper {
+	text-transform: uppercase;
+}
+.row {
+	margin-bottom: 40px;
+}
+
+.article {
+
+}
+
+.article__image--node {
+	margin: 0 10px 10px 0;
+}
+
+.article__image {
+	width : 300px;
+	margin: 0 auto;
+}
+
+.article__image img {
+	padding: 4px;
+	border: 1px solid #eee;
+}
+
+.article--edito {
+	height: 350px;
+}
+
+.article__rubrique {
+	display: block;
+	font-family: 'Oswald', serif;
+	padding: 4px;
+	margin-top: 2px;
+	color: #FFF;
+	background-color: #FF4619;
+	text-transform: uppercase;
+}
+
+.article__image--edito {
+	float: left;
+	margin-right: 20px;
+}
+
+.article__image--edito img {
+	border-radius: 50%;
+}
+
+.article__content--edito {
+	overflow: hidden;
+}
+
+.article-list {
+  list-style-type: none;
+	padding: 0;
+}
+
+.left {
+	float: left;
+}
+
+.meta {
+  display: inline-block;
+  font-family: 'Oswald', serif;
+  margin-top: 20px;
+  color: #000;
+  text-transform: uppercase;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+.footer {
+	width: 100%;
+	height: 200px;
+	/*background: url("../images/polygon.png") repeat-x;*/
+}
